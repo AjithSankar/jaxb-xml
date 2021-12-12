@@ -1,0 +1,8 @@
+<ProcessPurchaseOrder>
+    <DataArea>
+        <PurchaseOrder>
+            <PurchaseOrderHeader/>
+            <PurchaseOrderLine/>
+        </PurchaseOrder>
+    </DataArea>
+</ProcessPurchaseOrder>
