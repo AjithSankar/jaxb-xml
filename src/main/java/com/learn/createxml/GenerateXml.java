@@ -38,7 +38,6 @@ public class GenerateXml {
 
         TransformerFactory tf = TransformerFactory.newInstance();
         Transformer transformer = tf.newTransformer();
-        System.out.println("Removing header");
         transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION,"Yes");
 
         StringWriter stringWriter = new StringWriter();
