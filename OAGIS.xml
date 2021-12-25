@@ -1,0 +1,66 @@
+
+<ProcessPurchaseOrder>
+    <DataArea>
+        <PurchaseOrder>
+            <PurchaseOrderHeader>
+                <Type>CREDIT</Type>
+                <TotalAmount>1100</TotalAmount>
+                <CustomerParty>
+                    <Name>Arthex inc</Name>
+                    <Address SchemeName="BillTo">
+                        <AddressLine1>No.10 4th street</AddressLine1>
+                        <AddressLine2>Washington road</AddressLine2>
+                        <CityName>Washington</CityName>
+                        <CountryCode>123</CountryCode>
+                        <PostalCode>7809</PostalCode>
+                    </Address>
+                    <Contact>arthex@gmail.com</Contact>
+                </CustomerParty>
+                <SupplierParty>
+                    <Name>AdventHealth</Name>
+                    <Address SchemeName="ShipTo">
+                        <AddressLine1>No.144 Dubai street</AddressLine1>
+                        <AddressLine2>Dubai road</AddressLine2>
+                        <CityName>Dubai</CityName>
+                        <CountryCode>987</CountryCode>
+                        <PostalCode>12345</PostalCode>
+                    </Address>
+                    <Contact>adventHealth@gmail.com</Contact>
+                </SupplierParty>
+                <RemitToParty>
+                    <Name>Arthex inc</Name>
+                    <Address SchemeName="BillTo">
+                        <AddressLine1>No.10 4th street</AddressLine1>
+                        <AddressLine2>Washington road</AddressLine2>
+                        <CityName>Washington</CityName>
+                        <CountryCode>123</CountryCode>
+                        <PostalCode>7809</PostalCode>
+                    </Address>
+                    <Contact>arthex@gmail.com</Contact>
+                </RemitToParty>
+            </PurchaseOrderHeader>
+            <PurchaseOrderLine>
+                <LineNumber>1</LineNumber>
+                <Item>
+                    <ItemId>ABC123</ItemId>
+                    <Description>SYRINGE 10MM</Description>
+                </Item>
+                <Quantity UnitCode="EA">2</Quantity>
+                <UnitPrice>100</UnitPrice>
+                <ExtendedAmount>200</ExtendedAmount>
+                <UserArea>This is sample</UserArea>
+            </PurchaseOrderLine>
+            <PurchaseOrderLine>
+                <LineNumber>2</LineNumber>
+                <Item>
+                    <ItemId>ABC123</ItemId>
+                    <Description>SYRINGE 10MM</Description>
+                </Item>
+                <Quantity UnitCode="BX">3</Quantity>
+                <UnitPrice>300</UnitPrice>
+                <ExtendedAmount>900</ExtendedAmount>
+                <UserArea>This is another sample</UserArea>
+            </PurchaseOrderLine>
+        </PurchaseOrder>
+    </DataArea>
+</ProcessPurchaseOrder>
